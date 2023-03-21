@@ -1,0 +1,22 @@
+.bmi-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 2rem 0;
+}
+
+button {
+    margin-bottom: 3rem;
+}
+
+.bmi-content {
+    padding-bottom: 1.5rem;
+}
