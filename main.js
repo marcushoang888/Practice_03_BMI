@@ -12,7 +12,7 @@ const bmiState = document.querySelector(".bmi-state")
 
 
 btn.addEventListener("click",function() {
-    const bmi = Number(weight.value) / Number(height.value)**2
+    const bmi = Number(weight.value) / (Number(height.value)/10**2)
     console.log(bmi)
 
     height.value = "";
