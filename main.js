@@ -17,7 +17,7 @@ btn.addEventListener("click",function() {
 
     height.value = "";
     weight.value ="";
-    bmiNumber.textContent = Math.round(bmi);
+    bmiNumber.textContent =bmi.toFixed(2);
 
     if (bmi <18) {
         bmiState.textContent = "Suy Dinh Dưỡng"
