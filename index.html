@@ -18,15 +18,19 @@
 
     <div class="container">
 
-        <div class="bmi-container">
-
+        <div class="bmi-container mb-5">
+          <div class="alert alert-danger" role="alert">
+            Please type your height and weight<a href="#" class="alert-link"></a>
+          </div>
             <div class="bmi-content">
 
                 <h1>BMI Calculator</h1>
                 
                 <div class="input-group mb-3">
                     <span class="input-group-text">Height</span>
-                    <input type="number" class="form-control height" aria-label="Amount (to the nearest dollar)">
+                    <input 
+                    autofocus
+                    type="number" class="form-control height" aria-label="Amount (to the nearest dollar)">
                     <span class="input-group-text">centimeter</span>
                   </div>
         
@@ -39,11 +43,13 @@
                   </div>
         
         
-                  <button type="button" class="btn btn-primary calculate">Calculate</button>
+                  <button type="submit" class="btn btn-primary calculate">Calculate</button>
             </div>
-    
-              <h2 class="bmi-number"></h2>
-              <h3 class="bmi-state"></h3>
+              <div class="bmi-result">
+                <h2 class="bmi-number">&nbsp;</h2>
+                <h3 class="bmi-state"> &nbsp;</h3>
+
+              </div>
         </div>
     </div>
 
